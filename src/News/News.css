@@ -1,0 +1,69 @@
+.evidence-card {
+  display: flex;
+  width: 100%;
+  height: 230px;
+  background: #fff;
+  max-width: 750px;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  margin: 20px 0;
+}
+.evidence-img {
+  width: 40%;
+  height: 100%;
+  background: #333;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.evidence-info {
+  width: 60%;
+  height: 100%;
+  padding: 10px 20px;
+}
+.evidence-title {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+}
+.evidence-title h4 {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.evidence-desc {
+  display: flex;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+.evidence-card p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #565861;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media screen and (max-width: 575px) {
+  .evidence-card {
+    width: 100%;
+    height: 480px;
+    background: #fff;
+    flex-direction: column;
+  }
+  .evidence-img {
+    width: 100%;
+    height: 250px;
+    min-height: 250px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 0;
+  }
+  .evidence-info {
+    width: 100%;
+    height: 230px;
+  }
+}
