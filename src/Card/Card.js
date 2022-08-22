@@ -76,7 +76,9 @@ export default function Card(props) {
           </div>
           <Tooltip label="Click me">
             {props.item.title === "UV Index" ? (
-              <div className="more">Realtime Data from API...</div>
+              <div className="more" style={{ color: "#FF8650" }}>
+                Realtime Data from API...
+              </div>
             ) : (
               <div className="more">More Info...</div>
             )}
