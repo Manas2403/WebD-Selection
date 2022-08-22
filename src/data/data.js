@@ -29,11 +29,11 @@ const data = [
   },
   {
     id: 3,
-    title: "Arctic Sea Ice Extent",
+    title: "UV Index",
     background: "#ffe981",
-    value: 13,
-    sup: "percent per decade since 1979",
-    bool: false,
+    value: 6,
+    sup: "percent since 1979",
+    bool: true,
     details:
       "Arctic sea ice reaches its minimum extent (the area in which satellite sensors show individual pixels to be at least 15% covered in ice) each September. September Arctic sea ice is now shrinking at a rate of 13% per decade, compared to its average extent during the period of 1981 to 2010. This graph shows the size of the Arctic sea ice each September since satellite observations started in 1979. The monthly value shown is the average of daily observations across the month of September during each year and is measured from satellites.",
     img: arctic,
