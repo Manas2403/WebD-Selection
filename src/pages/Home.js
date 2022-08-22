@@ -3,6 +3,7 @@ import "./Home.css";
 import data from "../data/data";
 import Card from "../Card/Card";
 import video from "../assets/vid.mp4";
+import logo from "../assets/satellite.svg";
 export default function Home() {
   const cards = data.map((item) => {
     return <Card key={item.id} item={item} />;
@@ -19,7 +20,10 @@ export default function Home() {
         <source src={video} type="video/mp4" />
       </video>
       <div className="home-container">
-        <div className="home-heading">Global Climate Change</div>
+        <div className="home-heading">
+          <img src={logo} alt="" />
+          <p>Global Climate Change</p>
+        </div>
         <div className="cards-container">{cards}</div>
       </div>
     </>

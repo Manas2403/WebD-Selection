@@ -11,15 +11,22 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: white;
-  font-size: 8vmin;
-  /* align-self: flex-start; */
+  font-size: 6vmin;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.home-heading img {
+  width: 60px;
 }
 .cards-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 4rem;
 }
 .background-video {
   width: 100vw;
